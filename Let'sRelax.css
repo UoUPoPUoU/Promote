@@ -612,7 +612,7 @@ footer {
     position: absolute;
     left: 260px;
     bottom: -139px;
-    background: url(img/qq.jpg) no-repeat;
+    background: url(img/QQ.jpg) no-repeat;
 }
 
 .footer div:nth-of-type(2) {
@@ -626,7 +626,7 @@ footer {
     height: 130px;
     position: absolute;
     right: 230px;
-    background: url(img/wechat1.png);
+    background: url(img/wechat1.png) no-repeat;
     bottom: -139px;
 }
 
