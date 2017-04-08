@@ -112,9 +112,8 @@ body {
 
 .img-circle:hover {
     -webkit-transform: translate3d(0, -2px, 0);
-    transform: translate3d(0, -2px, 0);
+            transform: translate3d(0, -2px, 0);
     box-shadow: 0 15px 30px rgba(0, 0, 0, .2);
-
 }
 
 .introduce > span {
@@ -129,11 +128,11 @@ body {
 
 @keyframes round {
     0% {
-        transform: rotate(0);
+                transform: rotate(0);
         -webkit-transform: rotate(0);
     }
     100% {
-        transform: rotate(360deg);
+                transform: rotate(360deg);
         -webkit-transform: rotate(360deg);
     }
 
@@ -167,18 +166,18 @@ div[class^="sakura"] {
 .sakuraOne {
     top: 150px;
     left: 150px;
-    animation: sakuraOne 11s infinite;
     transform-origin: -60px 0;
     -webkit-animation: sakuraOne 20s linear infinite;
+            animation: sakuraOne 20s linear infinite;
 }
 
 @keyframes sakuraOne {
     0% {
-        transform: translate3d(0, 0, 0) rotate(0deg);
+                transform: translate3d(0, 0, 0) rotate(0deg);
         -webkit-transform: translate3d(0, 0, 0) rotate(0deg);;
     }
     100% {
-        transform: translate3d(900px, 850px, 0) rotate(360deg);
+                transform: translate3d(900px, 850px, 0) rotate(360deg);
         -webkit-transform: translate3d(900px, 850px, 0) rotate(360deg);
     }
 }
@@ -186,18 +185,18 @@ div[class^="sakura"] {
 .sakuraTwo {
     top: 150px;
     left: 150px;
-    animation: sakuraTwo 20s infinite;
     transform-origin: 100px 0;
     -webkit-animation: sakuraTwo 20s linear infinite;
+            animation: sakuraTwo 20s linear infinite;
 }
 
 @keyframes sakuraTwo {
     0% {
-        transform: translate3d(0, 0, 0) rotate(0deg);
+                transform: translate3d(0, 0, 0) rotate(0deg);
         -webkit-transform: translate3d(0, 0, 0) rotate(0deg);
     }
     100% {
-        transform: translate3d(1000px, 1000px, 0) rotate(360deg);
+                transform: translate3d(1000px, 1000px, 0) rotate(360deg);
         -webkit-transform: translate3d(1000px, 1000px, 0) rotate(360deg);
     }
 }
@@ -205,18 +204,18 @@ div[class^="sakura"] {
 .sakuraThr {
     top: 150px;
     left: 200px;
-    animation: sakuraThr 22s infinite;
     transform-origin: -60px 0;
     -webkit-animation: sakuraThr 22s linear infinite;
+            animation: sakuraThr 22s linear infinite;
 }
 
 @keyframes sakuraThr {
     0% {
-        transform: translate3d(0, 0, 0) rotate(0deg);
+                transform: translate3d(0, 0, 0) rotate(0deg);
         -webkit-transform: translate3d(0, 0, 0) rotate(0deg);
     }
     100% {
-        transform: translate3d(950px, 2000px, 0) rotate(360deg);
+                transform: translate3d(950px, 2000px, 0) rotate(360deg);
         -webkit-transform: translate3d(950px, 2000px, 0) rotate(360deg);
     }
 }
@@ -224,18 +223,18 @@ div[class^="sakura"] {
 .sakuraFour {
     top: 180px;
     left: 180px;
-    animation: sakuraFour 10s infinite;
     transform-origin: -60px 0;
     -webkit-animation: sakuraFour 20s linear infinite;
+            animation: sakuraFour 20s infinite;
 }
 
 @keyframes sakuraFour {
     0% {
-        transform: translate3d(0, 0, 0) rotate(0deg);
+                transform: translate3d(0, 0, 0) rotate(0deg);
         -webkit-transform: translate3d(0, 0, 0) rotate(0deg);
     }
     100% {
-        transform: translate3d(850px, 2000px, 0) rotate(360deg);
+                transform: translate3d(850px, 2000px, 0) rotate(360deg);
         -webkit-transform: translate3d(850px, 2000px, 0) rotate(360deg);
     }
 }
@@ -243,26 +242,26 @@ div[class^="sakura"] {
 .sakuraFive {
     top: 80px;
     left: 40px;
-    animation: sakuraFour 10s infinite;
     transform-origin: 100px 0;
     -webkit-animation: sakuraFour 20s linear infinite;
+            animation: sakuraFour 20s linear infinite;
 }
 
 .sakuraSix {
     top: 165px;
     left: 100px;
-    animation: sakuraSix 20s infinite;
     transform-origin: 50px 0;
-    -webkit-animation: sakuraSix 15s linear infinite;
+    -webkit-animation: sakuraSix 20s linear infinite;
+            animation: sakuraSix 20s linear infinite;
 }
 
 @keyframes sakuraSix {
     0% {
-        transform: translate3d(0, 0, 0) rotate(0deg);
+                transform: translate3d(0, 0, 0) rotate(0deg);
         -webkit-transform: translate3d(0, 0, 0) rotate(0deg);
     }
     100% {
-        transform: translate3d(1000px, 2000px, 0) rotate(360deg);
+                transform: translate3d(1000px, 2000px, 0) rotate(360deg);
         -webkit-transform: translate3d(1000px, 2000px, 0) rotate(360deg);
     }
 }
@@ -270,17 +269,17 @@ div[class^="sakura"] {
 .sakuraSev {
     top: 133px;
     left: 139px;
-    animation: sakuraSix 20s infinite;
     transform-origin: 50px 0;
     -webkit-animation: sakuraSix 20s linear infinite;
+            animation: sakuraSix 20s linear infinite;
 }
 
 .sakuraEig {
     top: 210px;
     left: 69px;
-    animation: sakuraThr 12s infinite;
     transform-origin: 100px 0;
     -webkit-animation: sakuraThr 20s linear infinite;
+            animation: sakuraThr 12s linear infinite;
 }
 
 /*电影导航*/
@@ -292,7 +291,6 @@ div[class^="sakura"] {
 /*电影导航左边部分*/
 /*喜剧部分*/
 .columnOne {
-    /*height: 400px;*/
     margin-top: 40px;
     padding-top: 1px;
     border-radius: 5px;
@@ -432,8 +430,8 @@ div[class^="next"] {
 /*阴影部分*/
 .contact:hover,
 .likeHead:hover {
+            transform: translate3d(0, -2px, 0);
     -webkit-transform: translate3d(0, -2px, 0);
-    transform: translate3d(0, -2px, 0);
     box-shadow: 0 15px 30px rgba(0, 0, 0, .2);
 }
 
@@ -499,10 +497,9 @@ i.green:hover {
     position: relative;
     margin-top: 540px;
     text-align: center;
-    animation: like 20s infinite;
-    -moz-animation: like 20s infinite;
     -webkit-animation: like 20s infinite;
-    -o-animation: like 20s infinite;
+            animation: like 20s infinite;
+
 }
 
 @keyframes like {
@@ -512,7 +509,6 @@ i.green:hover {
     50% {
         top: 600px;
     }
-
     100% {
         top: 0;
     }
@@ -525,7 +521,6 @@ i.green:hover {
     50% {
         top: 600px;
     }
-
     100% {
         top: 0;
     }
@@ -584,21 +579,22 @@ footer {
 
 .beat {
     color: brown;
-    animation: beat 1.33s ease-in-out infinite;
+    -webkit-animation: beat 1.33s ease-in-out infinite;
+            animation: beat 1.33s ease-in-out infinite;;
 }
 
 @keyframes beat {
     0% {
         -webkit-transform: scale(1);
-        transform: scale(1)
+                transform: scale(1)
     }
     50% {
         -webkit-transform: scale(.8);
-        transform: scale(.8)
+                transform: scale(.8)
     }
     100% {
         -webkit-transform: scale(2);
-        transform: scale(2)
+                transform: scale(2)
     }
 }
 
