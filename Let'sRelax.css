@@ -112,7 +112,7 @@ body {
 
 .img-circle:hover {
     -webkit-transform: translate3d(0, -2px, 0);
-            transform: translate3d(0, -2px, 0);
+    transform: translate3d(0, -2px, 0);
     box-shadow: 0 15px 30px rgba(0, 0, 0, .2);
 }
 
@@ -128,14 +128,13 @@ body {
 
 @keyframes round {
     0% {
-                transform: rotate(0);
+        transform: rotate(0);
         -webkit-transform: rotate(0);
     }
     100% {
-                transform: rotate(360deg);
+        transform: rotate(360deg);
         -webkit-transform: rotate(360deg);
     }
-
 }
 
 /*樱花雨*/
@@ -168,16 +167,16 @@ div[class^="sakura"] {
     left: 150px;
     transform-origin: -60px 0;
     -webkit-animation: sakuraOne 20s linear infinite;
-            animation: sakuraOne 20s linear infinite;
+    animation: sakuraOne 20s linear infinite;
 }
 
 @keyframes sakuraOne {
     0% {
-                transform: translate3d(0, 0, 0) rotate(0deg);
+        transform: translate3d(0, 0, 0) rotate(0deg);
         -webkit-transform: translate3d(0, 0, 0) rotate(0deg);;
     }
     100% {
-                transform: translate3d(900px, 850px, 0) rotate(360deg);
+        transform: translate3d(900px, 850px, 0) rotate(360deg);
         -webkit-transform: translate3d(900px, 850px, 0) rotate(360deg);
     }
 }
@@ -187,16 +186,16 @@ div[class^="sakura"] {
     left: 150px;
     transform-origin: 100px 0;
     -webkit-animation: sakuraTwo 20s linear infinite;
-            animation: sakuraTwo 20s linear infinite;
+    animation: sakuraTwo 20s linear infinite;
 }
 
 @keyframes sakuraTwo {
     0% {
-                transform: translate3d(0, 0, 0) rotate(0deg);
+        transform: translate3d(0, 0, 0) rotate(0deg);
         -webkit-transform: translate3d(0, 0, 0) rotate(0deg);
     }
     100% {
-                transform: translate3d(1000px, 1000px, 0) rotate(360deg);
+        transform: translate3d(1000px, 1000px, 0) rotate(360deg);
         -webkit-transform: translate3d(1000px, 1000px, 0) rotate(360deg);
     }
 }
@@ -206,16 +205,16 @@ div[class^="sakura"] {
     left: 200px;
     transform-origin: -60px 0;
     -webkit-animation: sakuraThr 22s linear infinite;
-            animation: sakuraThr 22s linear infinite;
+    animation: sakuraThr 22s linear infinite;
 }
 
 @keyframes sakuraThr {
     0% {
-                transform: translate3d(0, 0, 0) rotate(0deg);
+        transform: translate3d(0, 0, 0) rotate(0deg);
         -webkit-transform: translate3d(0, 0, 0) rotate(0deg);
     }
     100% {
-                transform: translate3d(950px, 2000px, 0) rotate(360deg);
+        transform: translate3d(950px, 2000px, 0) rotate(360deg);
         -webkit-transform: translate3d(950px, 2000px, 0) rotate(360deg);
     }
 }
@@ -225,16 +224,16 @@ div[class^="sakura"] {
     left: 180px;
     transform-origin: -60px 0;
     -webkit-animation: sakuraFour 20s linear infinite;
-            animation: sakuraFour 20s infinite;
+    animation: sakuraFour 20s infinite;
 }
 
 @keyframes sakuraFour {
     0% {
-                transform: translate3d(0, 0, 0) rotate(0deg);
+        transform: translate3d(0, 0, 0) rotate(0deg);
         -webkit-transform: translate3d(0, 0, 0) rotate(0deg);
     }
     100% {
-                transform: translate3d(850px, 2000px, 0) rotate(360deg);
+        transform: translate3d(850px, 2000px, 0) rotate(360deg);
         -webkit-transform: translate3d(850px, 2000px, 0) rotate(360deg);
     }
 }
@@ -244,7 +243,7 @@ div[class^="sakura"] {
     left: 40px;
     transform-origin: 100px 0;
     -webkit-animation: sakuraFour 20s linear infinite;
-            animation: sakuraFour 20s linear infinite;
+    animation: sakuraFour 20s linear infinite;
 }
 
 .sakuraSix {
@@ -252,16 +251,16 @@ div[class^="sakura"] {
     left: 100px;
     transform-origin: 50px 0;
     -webkit-animation: sakuraSix 20s linear infinite;
-            animation: sakuraSix 20s linear infinite;
+    animation: sakuraSix 20s linear infinite;
 }
 
 @keyframes sakuraSix {
     0% {
-                transform: translate3d(0, 0, 0) rotate(0deg);
+        transform: translate3d(0, 0, 0) rotate(0deg);
         -webkit-transform: translate3d(0, 0, 0) rotate(0deg);
     }
     100% {
-                transform: translate3d(1000px, 2000px, 0) rotate(360deg);
+        transform: translate3d(1000px, 2000px, 0) rotate(360deg);
         -webkit-transform: translate3d(1000px, 2000px, 0) rotate(360deg);
     }
 }
@@ -271,7 +270,7 @@ div[class^="sakura"] {
     left: 139px;
     transform-origin: 50px 0;
     -webkit-animation: sakuraSix 20s linear infinite;
-            animation: sakuraSix 20s linear infinite;
+    animation: sakuraSix 20s linear infinite;
 }
 
 .sakuraEig {
@@ -279,7 +278,7 @@ div[class^="sakura"] {
     left: 69px;
     transform-origin: 100px 0;
     -webkit-animation: sakuraThr 20s linear infinite;
-            animation: sakuraThr 12s linear infinite;
+    animation: sakuraThr 12s linear infinite;
 }
 
 /*rows 's father*/
@@ -355,7 +354,6 @@ div[class^="next"] {
     /*margin-top: -15%;*/
     position: absolute;
     z-index: 2;
-
 }
 
 div[class^="prev"]:hover,
@@ -402,7 +400,6 @@ div[class^="next"] {
 /*右侧边栏*/
 .rowR {
     width: 22%;
-    /*height: 1300px;*/
     margin-top: 40px;
     float: right;
     border-radius: 5px;
@@ -418,11 +415,9 @@ div[class^="next"] {
 
 .contact {
     width: 100%;
-    /*height: 120px;*/
     position: relative;
     z-index: 5;
     text-align: center;
-    /*background-color: white;*/
 }
 
 .contact > img {
@@ -432,7 +427,7 @@ div[class^="next"] {
 /*阴影部分*/
 .contact:hover,
 .likeHead:hover {
-            transform: translate3d(0, -2px, 0);
+    transform: translate3d(0, -2px, 0);
     -webkit-transform: translate3d(0, -2px, 0);
     box-shadow: 0 15px 30px rgba(0, 0, 0, .2);
 }
@@ -491,7 +486,6 @@ i.green:hover {
     background-color: #bdf;
 }
 
-
 .likeHead {
     width: 100%;
     height: 150px;
@@ -500,7 +494,7 @@ i.green:hover {
     margin-top: 540px;
     text-align: center;
     -webkit-animation: like 20s infinite;
-            animation: like 20s infinite;
+    animation: like 20s infinite;
 }
 
 @keyframes like {
@@ -546,8 +540,6 @@ i.green:hover {
     color: red;
 }
 
-
-
 .footer,
 footer {
     width: 100%;
@@ -558,7 +550,7 @@ footer {
 
 .footer {
     font-size: 2em;
-    text-align:center;
+    text-align: center;
 }
 
 footer {
@@ -576,25 +568,23 @@ footer {
 .beat {
     color: brown;
     -webkit-animation: beat 1.33s ease-in-out infinite;
-            animation: beat 1.33s ease-in-out infinite;;
+    animation: beat 1.33s ease-in-out infinite;;
 }
 
 @keyframes beat {
     0% {
         -webkit-transform: scale(1);
-                transform: scale(1)
+        transform: scale(1)
     }
     50% {
         -webkit-transform: scale(.8);
-                transform: scale(.8)
+        transform: scale(.8)
     }
     100% {
         -webkit-transform: scale(2);
-                transform: scale(2)
+        transform: scale(2)
     }
 }
-
-
 
 .footer div:nth-of-type(1) {
     width: 111px;
